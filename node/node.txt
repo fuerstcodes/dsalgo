@@ -1,0 +1,11 @@
+#Data Structures: Node
+
+A node is a fundamental building block for more complex data structures.
+Nodes contain two types of information: 
+    - data (every kind of datatype)
+    - link to another node (pointer)
+
+Nodes can be linked together into a chain - if there is a node without a link to
+another node, you have reached the end of this specific path. (pointer to null)
+
+If there is a node without a link to it, it gets deleted from the chain. (Orphaned Node)
